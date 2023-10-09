@@ -1,21 +1,34 @@
-[
-    {
+{
+    "banner1": {
         "name": "Banner",
         "data": {
             "id": 0,
             "className": ""
         }
     },
-    {
+    "catalogue1": {
         "name": "Catalogue",
         "data": {
             "className": ""
         }
     },
-    {
-            "name": "Category",
-            "data": {
-                "className": ""
-            }
+    "banner2": {
+        "name": "Banner",
+        "data": {
+            "id": 1,
+            "className": ""
+        }
+    },
+    "category": {
+        "name": "Category",
+        "data": {
+            "className": ""
+        }
+    },
+    "catalogue2": {
+        "name": "Catalogue",
+        "data": {
+            "className": ""
+        }
     }
-]
+}
