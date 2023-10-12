@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Marquee/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/AddToCartButton/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Slider/style.css");
+
+:root {
+  --theme-primary-color: #000;
+  --theme-light-text-color: #efefef;
+  --theme-card-background-color: #fff;
+  --theme-dark-text-color: #111;
+  --theme-dark-secondary-text-color: #999;
+  --theme-shadow-color: #efefef;
+  --theme-max-width: 1320px;
+
+  --font-size-sm: 1rem;
+  --font-size-md: 1.4rem;
+  --font-size-lg: 1.8rem;
+  --font-size-xl: 2.2rem;
+  --font-size-xxl: 2.6rem;
+  --font-size-xxxl: 3rem;
+  --font-size-xxxxl: 3.4rem;
+  --font-size-huge: 3.8rem;
+  --font-size-super: 5rem;
+
+  --element-spacing-2xxl: 10rem;
+  --element-spacing-xxl: 5rem;
+  --element-spacing-xl: 4rem;
+  --element-spacing-lg: 3rem;
+  --element-spacing-md: 2rem;
+  --element-spacing-sm: 1rem;
+  --element-spacing-xs: 0.5rem;
+  --element-spacing-xxs: 0.2rem;
+}
+.theme-vaquita *,
+*::before,
+*::after {
+  font-family: "poppins", sans-serif;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.max-width {
+  max-width: var(--theme-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--element-spacing-sm);
+  padding-right: var(--element-spacing-sm);
+}
+.vaquita-mt-2xxl {
+  margin-top: var(--element-spacing-2xxl);
+}
+.vaquita-mt-xxl {
+  margin-top: var(--element-spacing-xxl);
+}
+.vaquita-mt-xl {
+  margin-top: var(--element-spacing-xl);
+}
+.vaquita-mt-lg {
+  margin-top: var(--element-spacing-lg);
+}
+.vaquita-mt-md {
+  margin-top: var(--element-spacing-md);
+}
+.vaquita-mt-sm {
+  margin-top: var(--element-spacing-sm);
+}
+a {
+  text-decoration: none;
+  color: unset;
+}

@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Slider",
+        "data": {
+            "dark": true,
+            "callSign": "image"
+        }
+    },
+    {
+        "name": "Marquee"
+    },
+    {
+        "name": "CategoryListSlider",
+        "data": {
+            "forCatalog": true,
+            "title": "Featured Catalog",
+            "dataKey": "biz_shop_catalog_id",
+            "storeSubName": "catalog"
+        }
+    },
+    {
+        "name": "ProductListSlider",
+        "data": {
+            "index": 0,
+            "fetch": "all_category"
+        }
+    },
+    {
+        "name": "CategoryListSlider",
+        "data": {
+            "forCatalog": false,
+            "title": "Shop By Categories",
+            "dataKey": "biz_shop_category_id",
+            "storeSubName": "category"
+        }
+    },
+    {
+        "name": "Reviews"
+    },
+    {
+        "name": "InfoBand"
+    }
+]
