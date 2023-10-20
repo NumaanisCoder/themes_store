@@ -1,0 +1,105 @@
+.root {
+  background: var(--theme-primary-color);
+  min-height: 405px;
+  width: 100%;
+  padding-bottom: var(--element-spacing-xl);
+}
+.footerTop {
+  background: transparent;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.zIndex15 {
+  z-index: 15;
+}
+.iconFacebook {
+  transition: 0.3s !important;
+  font-size: var(--font-size-super) !important;
+  cursor: pointer;
+  color: rgb(0, 0, 255);
+}
+.iconFacebook:hover {
+  color: #2860a9;
+}
+.iconInsta {
+  transition: 0.3s !important;
+  font-size: var(--font-size-super) !important;
+  cursor: pointer;
+  color: red;
+}
+.iconInsta:hover {
+  color: #ad282f;
+}
+.storeName {
+  font-weight: 600;
+  font-size: var(--font-size-xxl);
+  margin-bottom: var(--element-spacing-sm);
+  border-bottom: 1px solid #444;
+}
+.storeAddress {
+  font-weight: 500;
+  font-size: var(--font-size-md);
+}
+.review {
+  font-weight: 500;
+  font-size: var(--font-size-md);
+  display: flex;
+  color: rgb(255, 219, 17);
+}
+.star {
+  margin-top: -2px;
+  margin-right: 5px;
+}
+.title {
+  font-weight: 600;
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  margin-bottom: var(--element-spacing-sm);
+}
+.impLink {
+  transition: 0.5s;
+  margin-bottom: var(--element-spacing-xs);
+  font-size: var(--font-size-lg);
+  cursor: pointer;
+}
+.impLink:hover {
+  color: #1877f2;
+}
+
+.copywriteMainContainer {
+  margin-top: 2rem;
+}
+
+.copywrite {
+  font-size: var(--font-size-lg);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ImportantLinksContainer {
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .impLink {
+    transition: 0.5s;
+    margin-bottom: var(--element-spacing-xs);
+    font-size: var(--font-size-md);
+    cursor: pointer;
+  }
+  .ImportantLinksContainer {
+    text-align: center;
+    margin-top: var(--element-spacing-lg);
+  }
+  .copywrite {
+    margin-top: var(--element-spacing-lg);
+  }
+  .StoreDetailsContainer {
+    text-align: center;
+  }
+  .review {
+    justify-content: center;
+  }
+}

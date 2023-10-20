@@ -2,6 +2,7 @@
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Marquee/style.css");
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/AddToCartButton/style.css");
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Slider/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/Footer/style.css");
 
 :root {
   --theme-primary-color: #000;
