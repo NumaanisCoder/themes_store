@@ -1,3 +1,11 @@
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
 .image {
   position: absolute;
   top: 0;
@@ -6,20 +14,23 @@
   height: 100%;
   object-fit: cover;
 }
-.imageContainer {
-  height: 0;
-  overflow: hidden;
-  padding-top: 39.0625%;
-  background: white;
-  position: relative;
-}
-.imageContainerLessHeight {
+
+.image-container-less-height {
   height: 0;
   overflow: hidden;
   padding-top: 29.0625%;
   background: white;
   position: relative;
 }
+
+.image-container {
+  height: 0;
+  overflow: hidden;
+  padding-top: 39.0625%;
+  background: white;
+  position: relative;
+}
+
 .dark {
   position: absolute;
   top: 0;
@@ -29,7 +40,8 @@
   z-index: 2;
   background-color: #00000070;
 }
-.textContainer {
+
+.text-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -37,7 +49,8 @@
   height: 90%;
   z-index: 3;
 }
-.textInsideContainer {
+
+.text-inside-container {
   max-width: var(--theme-max-width);
   margin-left: auto;
   margin-right: auto;
@@ -48,6 +61,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .text {
   color: white;
   text-decoration: none;
@@ -62,9 +76,31 @@
   font-size: var(--font-size-lg);
   text-transform: lowercase;
 }
-.buttonContainer {
+
+.button-container {
   margin-top: var(--element-spacing-md);
 }
+
+/* animation start */
+.textH1,
+.textH2 {
+  animation: textWrite 2s forwards;
+  opacity: 0;
+  /* white-space: nowrap; */
+}
+
+@keyframes textWrite {
+  0% {
+  }
+  50% {
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* animation end */
+
 @media (max-width: 768px) {
   .textH1 {
     font-size: var(--font-size-lg);
@@ -72,7 +108,7 @@
   .textH2 {
     font-size: var(--font-size-md);
   }
-  .textInsideContainer {
+  .text-inside-container {
     max-width: var(--theme-max-width);
     margin-left: auto;
     margin-right: auto;
@@ -83,7 +119,7 @@
     justify-content: center;
     align-items: center;
   }
-  .buttonContainer {
+  .button-container {
     margin-top: var(--element-spacing-xs);
     transform: scale(0.7);
   }
