@@ -1,0 +1,49 @@
+.accountIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 1rem;
+  width: 6rem;
+  height: 6rem;
+  background: var(--border-light-box-color-1);
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+}
+
+.accountIconContainer:hover {
+  width: 6.5rem;
+  height: 6.5rem;
+  background: var(--background-black-color);
+  color: white;
+}
+
+.accountIcon {
+  font-size: var(--font-size-huge) !important;
+  color: var(--background-black-color);
+  margin-right: 0;
+  transition: all 0.3s ease-in;
+}
+
+.accountIconContainer:hover .accountIcon {
+  color: white;
+}
+
+.accountIconTextContainer {
+  display: none;
+}
+
+.accountIconTextTitle {
+  font-size: var(--font-size-md);
+  font-weight: bold;
+}
+
+.accountIconTextSubTitle {
+  font-size: var(--font-size-md);
+}
+
+@media (max-width: 768px) {
+  .accountIcon {
+    font-size: var(--font-size-xxl) !important;
+  }
+}

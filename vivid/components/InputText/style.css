@@ -1,0 +1,68 @@
+.searchInputMainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.searchInputInnerContainer {
+  border: none;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchInputBox {
+  height: 100%;
+  border: 0px;
+  width: 100%;
+  outline: none;
+  font-size: var(--font-size-lg);
+  padding: var(--element-spacing-sm);
+  border: 1px solid var(--border-light-box-color-1);
+  border-radius: 3rem;
+  text-indent: 2rem;
+  width: 90%;
+  color: var(--border-light-box-color-2);
+}
+
+.searchInputBox::placeholder {
+  text-indent: 2rem;
+}
+
+.searchButtonContainer {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-left: var(--element-spacing-sm);
+  padding-right: var(--element-spacing-sm);
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+  border: 1px solid var(--border-light-box-color-1);
+  width: 4.5rem;
+  height: 4.5rem;
+  background: var(--border-light-box-color-1);
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+}
+
+.searchButtonContainer:hover {
+  border: 1px solid var(--background-black-color);
+  width: 4.9rem;
+  height: 4.9rem;
+  background: var(--background-black-color);
+  color: white;
+}
+
+.searchButtonIcon {
+  font-size: var(--font-size-xxl) !important;
+}
+
+@media (max-width: 768px) {
+  .searchInputMainContainer {
+    margin: var(--element-spacing-sm);
+  }
+}

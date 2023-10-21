@@ -1,0 +1,46 @@
+.iconWithTextMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgb(143, 143, 143);
+    transition: padding-top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out,
+      border 0.2s ease-in-out;
+  }
+  
+  .iconWithTextMainContainer:hover {
+    border: 2px solid rgb(111, 111, 111);
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  }
+  
+  .flipIcon {
+    transform: rotateY(180deg);
+  }
+  
+  .iconWithTextHeading {
+    text-transform: uppercase;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+  }
+  .iconWithTextSubHeading {
+    text-transform: capitalize;
+    font-size: var(--font-size-md);
+    font-weight: 400;
+  }
+
+  .infoBrandIcon {
+    margin-right: 0.5rem;
+    font-size: 40px !important;
+  }
+  
+  @media (max-width: 768px) {
+    .iconWithTextMainContainer {
+      justify-content: flex-start;
+      margin-left: var(--element-spacing-xs);
+    }
+  }

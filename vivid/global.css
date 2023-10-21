@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Components */
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Marquee/style.css");
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/AddToCartButton/style.css");
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Slider/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/CartButton/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/IconWithText/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/InputText/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/MyAccountButton/style.css");
+
+/* Widgets */
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/Footer/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/InfoBrand/style.css");
 
 :root {
   --theme-primary-color: #000;
@@ -12,6 +20,10 @@
   --theme-dark-secondary-text-color: #999;
   --theme-shadow-color: #efefef;
   --theme-max-width: 1320px;
+  
+  --border-light-box-color-1: #dbdbdb;
+  --background-black-color: #000;
+  --border-light-box-color-2: #6e6e6e;
 
   --font-size-sm: 1rem;
   --font-size-md: 1.4rem;
