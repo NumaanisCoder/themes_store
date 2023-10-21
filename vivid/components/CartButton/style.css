@@ -16,9 +16,12 @@
   color: white;
 }
 
-.cartIconContainer:hover > .cartIcon {
-  color: white;
+.cartIconContainer:hover > div {
   scale: 1;
+}
+
+.cartIconContainer:hover .cartIcon {
+  color: white;
 }
 
 .shakeDivContainer {
@@ -27,6 +30,7 @@
 }
 
 .cartIconContainer > div {
+  transition: all 0.3s ease-in;
   scale: 0.85;
 }
 
