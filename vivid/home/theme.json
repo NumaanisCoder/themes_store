@@ -1,9 +1,13 @@
 [
     {
+        "name": "Marquee"
+    },
+    {
         "name": "Slider",
         "data": {
             "dark": true,
-            "callSign": "image"
+            "callSign": "image",
+            "lessHeight": true
         }
     },
     {
