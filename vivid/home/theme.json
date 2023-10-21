@@ -11,9 +11,6 @@
         }
     },
     {
-        "name": "Marquee"
-    },
-    {
         "name": "CategoryListSlider",
         "data": {
             "forCatalog": true,
