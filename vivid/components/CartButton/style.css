@@ -12,19 +12,22 @@
 }
 
 .cartIconContainer:hover {
-  width: 6.5rem;
-  height: 6.5rem;
   background: var(--background-black-color);
   color: white;
 }
 
-.cartIconContainer:hover .cartIcon {
+.cartIconContainer:hover > .cartIcon {
   color: white;
+  scale: 1;
 }
 
 .shakeDivContainer {
   position: relative;
   animation: shake 0.5s ease infinite;
+}
+
+.cartIconContainer > div {
+  scale: 0.85;
 }
 
 @keyframes shake {
