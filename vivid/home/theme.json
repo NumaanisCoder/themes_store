@@ -3,20 +3,20 @@
         "name": "Marquee"
     },
     {
-        "name": "Slider",
-        "data": {
-            "dark": true,
-            "callSign": "image",
-            "lessHeight": true
-        }
-    },
-    {
         "name": "CategoryListSlider",
         "data": {
             "forCatalog": true,
             "title": "Featured Catalog",
             "dataKey": "biz_shop_catalog_id",
             "storeSubName": "catalog"
+        }
+    },
+    {
+        "name": "Slider",
+        "data": {
+            "dark": true,
+            "callSign": "image",
+            "lessHeight": true
         }
     },
     {
