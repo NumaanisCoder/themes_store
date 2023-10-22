@@ -44,7 +44,7 @@
   --element-spacing-xs: 0.5rem;
   --element-spacing-xxs: 0.2rem;
 }
-.theme-vaquita *,
+.theme-vivid *,
 *::before,
 *::after {
   font-family: "poppins", sans-serif;
@@ -59,22 +59,22 @@
   padding-left: var(--element-spacing-sm);
   padding-right: var(--element-spacing-sm);
 }
-.vaquita-mt-2xxl {
+.vivid-mt-2xxl {
   margin-top: var(--element-spacing-2xxl);
 }
-.vaquita-mt-xxl {
+.vivid-mt-xxl {
   margin-top: var(--element-spacing-xxl);
 }
-.vaquita-mt-xl {
+.vivid-mt-xl {
   margin-top: var(--element-spacing-xl);
 }
-.vaquita-mt-lg {
+.vivid-mt-lg {
   margin-top: var(--element-spacing-lg);
 }
-.vaquita-mt-md {
+.vivid-mt-md {
   margin-top: var(--element-spacing-md);
 }
-.vaquita-mt-sm {
+.vivid-mt-sm {
   margin-top: var(--element-spacing-sm);
 }
 a {
