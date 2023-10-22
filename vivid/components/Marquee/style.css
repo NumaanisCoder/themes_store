@@ -4,7 +4,7 @@
   color: var(--theme-light-text-color);
   font-weight: bold;
   font-size: var(--font-size-md);
-  background-color: var(--theme-primary-color);
+  background-color: red;
   text-transform: uppercase;
   display: flex;
   animation: rightmarquee 25s linear infinite;
