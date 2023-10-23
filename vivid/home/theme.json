@@ -27,6 +27,15 @@
         }
     },
     {
+        "name": "ItemInFocus",
+        "data": {
+            "apiSubData": true,
+            "className": "my-5 py-5",
+            "detailsOnLeft": true,
+            "description": ""
+        }
+    },
+    {
         "name": "CategoryListSlider",
         "data": {
             "forCatalog": false,
