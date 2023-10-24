@@ -3,20 +3,20 @@
         "name": "Marquee"
     },
     {
+        "name": "Slider",
+        "data": {
+            "dark": true,
+            "callSign": "image",
+            "lessHeight": true
+        }
+    },
+    {
         "name": "CategoryListSlider",
         "data": {
             "forCatalog": true,
             "title": "Featured Catalog",
             "dataKey": "biz_shop_catalog_id",
             "storeSubName": "catalog"
-        }
-    },
-    {
-        "name": "Slider",
-        "data": {
-            "dark": true,
-            "callSign": "image",
-            "lessHeight": true
         }
     },
     {
@@ -33,6 +33,12 @@
             "className": "my-5 py-5",
             "detailsOnLeft": true,
             "description": ""
+        }
+    },
+    {
+        "name": "RandomProductListGenerator",
+        "data": {
+            "fetch": "all_category"
         }
     },
     {
