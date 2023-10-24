@@ -1,6 +1,5 @@
 .root {
   background: var(--theme-primary-color);
-  min-height: 405px;
   width: 100%;
   padding-bottom: var(--element-spacing-xl);
 }
