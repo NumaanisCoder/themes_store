@@ -1,8 +1,8 @@
 .buttonContainer {
-  padding: var(--element-spacing-xs) var(--element-spacing-sm)
-    var(--element-spacing-xs) var(--element-spacing-sm);
+  border-radius: 0.4rem;
+  padding: 0.6rem 2rem;
   border: 1px solid var(--theme-light-text-color);
-  background: var(--theme-primary-color);
+  background: var(--border-light-box-color-1);
   width: fit-content;
   cursor: pointer;
   display: flex;
@@ -28,7 +28,7 @@
 .buttonText {
   font-weight: 600;
   font-size: var(--font-size-lg);
-  color: var(--theme-light-text-color);
+  color: var(--theme-primary-color);
   text-transform: uppercase;
 }
 .buttonSM {
