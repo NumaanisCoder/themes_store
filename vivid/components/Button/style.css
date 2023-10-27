@@ -1,0 +1,82 @@
+.buttonContainerAnimated {
+  padding: var(--element-spacing-xs) var(--element-spacing-sm)
+    var(--element-spacing-xs) var(--element-spacing-sm);
+  border: 1px solid var(--theme-light-text-color);
+  background: var(--theme-primary-color);
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonContainerAnimated:hover {
+  filter: invert();
+  border: 1px solid var(--theme-dark-text-color);
+}
+.buttonContainerAnimated:hover .buttonIconContainerAnimated {
+  transform: translate(0);
+  opacity: 1;
+}
+.buttonContainerAnimated:hover .buttonTextAnimated {
+  transform: translate(0);
+}
+.buttonIconContainerAnimated {
+  transform: translate(calc(var(--font-size-huge) * -1));
+  transition: 0.5s ease;
+  opacity: 0;
+}
+.buttonTextAnimated {
+  font-weight: 600;
+  transform: translate(calc(var(--font-size-lg)));
+  font-size: var(--font-size-lg);
+  color: var(--theme-light-text-color);
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+.buttonContainer {
+  padding: var(--element-spacing-xs) var(--element-spacing-sm)
+    var(--element-spacing-xs) var(--element-spacing-sm);
+  border: 1px solid var(--theme-light-text-color);
+  background: var(--theme-primary-color);
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.buttonContainer:hover {
+  filter: invert();
+  border: 1px solid var(--theme-dark-text-color);
+}
+.buttonIconContainer {
+  opacity: 1;
+}
+.buttonIcon {
+  font-size: var(--font-size-huge) !important;
+  color: var(--theme-light-text-color);
+}
+.buttonIconSM {
+  font-size: var(--font-size-xl) !important;
+  color: var(--theme-light-text-color);
+}
+.buttonText {
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  color: var(--theme-light-text-color);
+  text-transform: uppercase;
+}
+.buttonSM {
+  transform: scale(0.7);
+  transform-origin: 0 0;
+}
+.buttonMD {
+  transform: scale(0.8);
+  transform-origin: 0 0;
+}
+.buttonDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}
