@@ -1,8 +1,8 @@
 .buttonContainerAnimated {
-  border-radius: 0.4rem;
-  padding: 0.6rem 2rem;
+  padding: var(--element-spacing-xs) var(--element-spacing-sm)
+    var(--element-spacing-xs) var(--element-spacing-sm);
   border: 1px solid var(--theme-light-text-color);
-  background: var(--border-light-box-color-1);
+  background: var(--theme-primary-color);
   width: fit-content;
   cursor: pointer;
   transition: 0.5s;
@@ -35,10 +35,10 @@
   transition: 0.5s ease;
 }
 .buttonContainer {
-  border-radius: 0.4rem;
-  padding: 0.6rem 2rem;
+  padding: var(--element-spacing-xs) var(--element-spacing-sm)
+    var(--element-spacing-xs) var(--element-spacing-sm);
   border: 1px solid var(--theme-light-text-color);
-  background: var(--border-light-box-color-1);
+  background: var(--theme-primary-color);
   width: fit-content;
   cursor: pointer;
   display: flex;
@@ -64,32 +64,19 @@
 .buttonText {
   font-weight: 600;
   font-size: var(--font-size-lg);
-  color: var(--theme-primary-color);
+  color: var(--theme-light-text-color);
   text-transform: uppercase;
 }
 .buttonSM {
-  transform: scale(1);
+  transform: scale(0.7);
   transform-origin: 0 0;
 }
 .buttonMD {
-  transform: scale(1);
+  transform: scale(0.8);
   transform-origin: 0 0;
 }
 .buttonDisabled {
   cursor: not-allowed;
   opacity: 0.6;
   pointer-events: none;
-}
-/* Extra CSS copied from AddToCartButtonStyle*/
-.count {
-  padding-left: var(--element-spacing-sm);
-  padding-right: var(--element-spacing-sm);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  font-size: var(--font-size-lg);
-}
-.AddToCartButton {
-  max-width: 100%;
 }

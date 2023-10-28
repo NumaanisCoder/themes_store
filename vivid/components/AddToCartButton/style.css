@@ -1,4 +1,4 @@
-/* .buttonContainer {
+.buttonContainer {
   border-radius: 0.4rem;
   padding: 0.6rem 2rem;
   border: 1px solid var(--theme-light-text-color);
@@ -50,4 +50,4 @@
 }
 .AddToCartButton {
   max-width: 100%;
-} */
+}
