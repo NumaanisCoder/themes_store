@@ -27,6 +27,9 @@
 .productCardImageContainer:hover {
 }
 .productCardEyeButton {
+  transform: scale(0.7);
+  background: var(--theme-primary-color);
+  padding: var(--element-spacing-xs) var(--element-spacing-sm) var(--element-spacing-xs) var(--element-spacing-sm);
   position: absolute;
   z-index: 1;
   bottom: -15px;
