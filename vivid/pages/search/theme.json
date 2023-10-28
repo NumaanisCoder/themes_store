@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Header"
+    },
+    {
+        "name": "SearchResult"
+    },
+    {
+        "name": "Footer",
+        "data": {
+            "className": "vivid-mt-2xxl"
+        }
+    }
+]
