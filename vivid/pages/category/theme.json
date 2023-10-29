@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Header"
+    },
+    {
+        "name": "DisplayProducts",
+        "data": {
+            "paginationRequired": true
+        }
+    },
+    {
+        "name": "Footer",
+        "data": {
+            "className": "vivid-mt-2xxl"
+        }
+    }
+]
