@@ -1,7 +1,7 @@
 .productCardRoot {
   display: flex;
   flex-direction: column;
-  background: var(--theme-card-background-color);
+  background: #f1f1f1;
 }
 .productCardImage {
   height: 100%;
@@ -82,6 +82,7 @@
 .productCardAddToCartButtonContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .productCardCustomizable {

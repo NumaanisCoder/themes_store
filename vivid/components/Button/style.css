@@ -91,5 +91,5 @@
   font-size: var(--font-size-lg);
 }
 .AddToCartButton {
-  max-width: 100%;
+  width: 100%;
 }
