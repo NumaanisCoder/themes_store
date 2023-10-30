@@ -93,3 +93,9 @@
 .AddToCartButton {
   width: 100%;
 }
+
+/* Extra CSS for CategoryCard Component [In which a class is passing as props into Button component]. */
+
+.catalogueViewButton{
+  width: 100%;
+}
