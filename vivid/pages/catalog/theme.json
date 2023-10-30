@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Slider",
+      "data": {
+        "dark": true,
+        "callSign": "image",
+        "lessHeight": true
+      }
+    },
+    {
+      "name": "CategoryListSlider",
+      "data": {
+        "title": "Shop By Categories",
+        "dataKey": "biz_shop_catalog_id",
+        "storeSubName": "category"
+      },
+    },
+    {
+      "name": "RandomProductListGenerator",
+      "data": {
+        "fetch": "all_category"
+      }
+    },
+  ]
