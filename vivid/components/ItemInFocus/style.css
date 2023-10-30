@@ -30,6 +30,7 @@
 .itemInFocusCatalogName {
   font-size: var(--font-size-huge);
   font-weight: 500;
+  text-transform: uppercase;
   color: var(--theme-dark-text-color);
 }
 
@@ -62,18 +63,25 @@
   top: 140px;
   z-index: 1;
 }
+
+.itemInFocusPriceContainer{
+  display: flex;
+  padding-bottom: 1rem;
+  column-gap: 1rem;
+}
+
 .itemInFocusPrice {
   font-size: var(--font-size-lg);
   font-weight: 500;
   color: var(--theme-dark-text-color);
 }
 .itemInFocusPriceStrike {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-weight: 500;
   color: var(--theme-dark-secondary-text-color);
 }
 .itemInFocusSpecial {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-weight: 500;
   color: rgb(8, 130, 112);
 }
