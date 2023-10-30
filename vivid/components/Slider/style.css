@@ -78,7 +78,7 @@
 }
 
 .buttonContainer {
-  margin-top: var(--element-spacing-md);
+  /* margin-top: var(--element-spacing-md); */
 }
 
 /* animation start */

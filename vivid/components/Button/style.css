@@ -30,7 +30,7 @@
   font-weight: 600;
   transform: translate(calc(var(--font-size-lg)));
   font-size: var(--font-size-lg);
-  color: var(--theme-light-text-color);
+  color: black;
   text-transform: uppercase;
   transition: 0.5s ease;
 }
@@ -55,7 +55,7 @@
 }
 .buttonIcon {
   font-size: var(--font-size-huge) !important;
-  color: var(--theme-light-text-color);
+  color: black;
 }
 .buttonIconSM {
   font-size: var(--font-size-xl) !important;
@@ -91,5 +91,5 @@
   font-size: var(--font-size-lg);
 }
 .AddToCartButton {
-  max-width: 100%;
+  width: 100%;
 }
