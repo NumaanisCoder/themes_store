@@ -13,12 +13,12 @@
         "title": "Shop By Categories",
         "dataKey": "biz_shop_catalog_id",
         "storeSubName": "category"
-      },
+      }
     },
     {
       "name": "RandomProductListGenerator",
       "data": {
         "fetch": "all_category"
       }
-    },
-  ]
+    }
+]
