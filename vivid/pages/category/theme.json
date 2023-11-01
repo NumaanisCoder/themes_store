@@ -1,17 +1,33 @@
-[
-    {
-        "name": "Header"
+{
+    "name": "div",
+    "isContainer": true,
+    "props": {
+      "className": "vh-100"
     },
-    {
-        "name": "DisplayProducts",
-        "data": {
-            "paginationRequired": true
-        }
-    },
-    {
-        "name": "Footer",
-        "data": {
-            "className": "vivid-mt-2xxl"
-        }
-    }
-]
+    "children": [
+      {
+        "name": "div",
+        "isContainer": true,
+        "props": {
+          "className": "theme-vivid"
+        },
+        "children": [
+          {
+            "name": "Header"
+          },
+          {
+            "name": "DisplayProducts",
+            "props": {
+              "paginationRequired": true
+            }
+          },
+          {
+            "name": "Footer",
+            "props": {
+              "className": "vivid-mt-2xxl"
+            }
+          }
+        ]
+      }
+    ]
+  }
