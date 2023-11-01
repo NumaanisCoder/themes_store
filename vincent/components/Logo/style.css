@@ -1,0 +1,16 @@
+.logoContainer {
+  padding: var(--element-spacing-md);
+  padding-left: 0;
+}
+.logo {
+  max-height: 64px;
+}
+@media (max-width: 768px) {
+  .logo {
+    max-height: 48px;
+  }
+  .logoContainer {
+    padding: var(--element-spacing-sm);
+    padding-left: 0;
+  }
+}

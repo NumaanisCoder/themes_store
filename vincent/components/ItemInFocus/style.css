@@ -1,0 +1,123 @@
+.itemInFocusRoot {
+  display: flex;
+  flex-direction: column;
+  background: var(--theme-card-background-color);
+  position: relative;
+}
+.itemInFocusImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: 0.5s;
+}
+.itemInFocusImageContainer {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  background: #efefef;
+  overflow: hidden;
+  cursor: pointer;
+  position: inherit;
+  box-shadow: 10px 10px 20px var(--theme-shadow-color);
+
+  position: relative;
+}
+.itemInFocusImageContainer:hover .itemInFocusImage {
+  transform: scale(1.1);
+}
+
+.itemInFocusCatalogName {
+  font-size: var(--font-size-huge);
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--theme-dark-text-color);
+}
+
+.itemInFocusDescription {
+  font-size: var(--font-size-lg);
+  font-weight: 400;
+  color: var(--theme-dark-text-color);
+  text-align: justify;
+}
+.itemInFocusPcDesc {
+  box-shadow: 10px 0px 10px var(--theme-shadow-color);
+  position: absolute;
+  background: white;
+  vertical-align: middle;
+  padding: var(--element-spacing-lg);
+  padding-right: var(--element-spacing-xxl);
+  padding-left: var(--element-spacing-xxl);
+  right: 0px;
+  top: 140px;
+}
+.itemInFocusPcDescLeft {
+  box-shadow: -10px 0px 10px var(--theme-shadow-color);
+  position: absolute;
+  background: white;
+  vertical-align: middle;
+  padding: var(--element-spacing-lg);
+  padding-right: var(--element-spacing-xxl);
+  padding-left: var(--element-spacing-xxl);
+  left: 0px;
+  top: 140px;
+  z-index: 1;
+}
+
+.itemInFocusPriceContainer{
+  display: flex;
+  padding-bottom: 1rem;
+  column-gap: 1rem;
+}
+
+.itemInFocusPrice {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--theme-dark-text-color);
+}
+.itemInFocusPriceStrike {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--theme-dark-secondary-text-color);
+}
+.itemInFocusSpecial {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: rgb(8, 130, 112);
+}
+@media (max-width: 768px) {
+  .itemInFocusImageContainer {
+    height: 200px;
+  }
+  .itemInFocusCatalogName {
+    margin-top: var(--element-spacing-md);
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    color: var(--theme-dark-text-color);
+  }
+  .itemInFocusDescription {
+    font-size: var(--font-size-md);
+    font-weight: 400;
+    color: var(--theme-dark-text-color);
+    text-align: center;
+    margin-bottom: var(--element-spacing-md);
+  }
+  .itemInFocusPcDesc {
+    box-shadow: none;
+    position: initial;
+    background: white;
+    vertical-align: middle;
+    padding: 0;
+    right: 0px;
+    top: 0px;
+  }
+  .itemInFocusPcDescLeft {
+    box-shadow: none;
+    position: initial;
+    background: white;
+    vertical-align: middle;
+    padding: 0;
+    right: 0px;
+    top: 0px;
+  }
+}

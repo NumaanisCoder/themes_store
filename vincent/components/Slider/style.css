@@ -1,0 +1,126 @@
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageContainerLessHeight {
+  height: 0;
+  overflow: hidden;
+  padding-top: 29.0625%;
+  background: white;
+  position: relative;
+}
+
+.imageContainer {
+  height: 0;
+  overflow: hidden;
+  padding-top: 39.0625%;
+  background: white;
+  position: relative;
+}
+
+.dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #00000070;
+}
+
+.textContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  z-index: 3;
+}
+
+.textInsideContainer {
+  max-width: var(--theme-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: var(--element-spacing-sm);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+  text-decoration: none;
+}
+.textH1 {
+  font-weight: 600;
+  font-size: var(--font-size-super);
+  text-transform: uppercase;
+}
+.textH2 {
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  text-transform: lowercase;
+}
+
+.buttonContainer {
+  /* margin-top: var(--element-spacing-md); */
+}
+
+/* animation start */
+.textH1,
+.textH2 {
+  animation: textWrite 2s forwards;
+  opacity: 0;
+  /* white-space: nowrap; */
+}
+
+@keyframes textWrite {
+  0% {
+  }
+  50% {
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* animation end */
+
+@media (max-width: 768px) {
+  .textH1 {
+    font-size: var(--font-size-lg);
+  }
+  .textH2 {
+    font-size: var(--font-size-md);
+  }
+  .textInsideContainer {
+    max-width: var(--theme-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonContainer {
+    margin-top: var(--element-spacing-xs);
+    transform: scale(0.7);
+  }
+}

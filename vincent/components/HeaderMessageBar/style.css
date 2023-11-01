@@ -1,0 +1,17 @@
+.messageBarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  color: var(--theme-light-text-color);
+  font-weight: bold;
+  font-size: var(--font-size-md);
+  text-align: center;
+  background-color: var(--theme-primary-color);
+}
+@media (max-width: 768px) {
+  .messageBarContainer {
+    padding: var(--element-spacing-sm);
+  }
+}
