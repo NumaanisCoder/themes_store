@@ -23,10 +23,7 @@
   will-change: transform;
   margin-right: var(--element-spacing-lg);
   margin-left: var(--element-spacing-xs);
-}
-
-.marqueeContainer div:hover{
-  color: rgb(230, 230, 230);
+  transition: all 0.3s;
 }
 
 @keyframes rightmarquee {
