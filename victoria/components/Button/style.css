@@ -1,0 +1,101 @@
+.buttonContainerAnimated {
+  border-radius: 0.4rem;
+  padding: 0.6rem 2rem;
+  border: 1px solid var(--theme-light-text-color);
+  background: var(--border-light-box-color-1);
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonContainerAnimated:hover {
+  filter: invert();
+  border: 1px solid var(--theme-dark-text-color);
+}
+.buttonContainerAnimated:hover .buttonIconContainerAnimated {
+  transform: translate(0);
+  opacity: 1;
+}
+.buttonContainerAnimated:hover .buttonTextAnimated {
+  transform: translate(0);
+}
+.buttonIconContainerAnimated {
+  transform: translate(calc(var(--font-size-huge) * -1));
+  transition: 0.5s ease;
+  opacity: 0;
+}
+.buttonTextAnimated {
+  font-weight: 600;
+  transform: translate(calc(var(--font-size-lg)));
+  font-size: var(--font-size-lg);
+  color: black;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+.buttonContainer {
+  border-radius: 0.4rem;
+  padding: 0.6rem 2rem;
+  border: 1px solid var(--theme-light-text-color);
+  background: var(--border-light-box-color-1);
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.buttonContainer:hover {
+  filter: invert();
+  border: 1px solid var(--theme-dark-text-color);
+}
+.buttonIconContainer {
+  opacity: 1;
+}
+.buttonIcon {
+  font-size: var(--font-size-huge) !important;
+  color: black;
+}
+.buttonIconSM {
+  font-size: var(--font-size-xl) !important;
+  color: var(--theme-light-text-color);
+}
+.buttonText {
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  color: var(--theme-primary-color);
+  text-transform: uppercase;
+}
+.buttonSM {
+  transform: scale(1);
+  transform-origin: 0 0;
+}
+.buttonMD {
+  transform: scale(1);
+  transform-origin: 0 0;
+}
+.buttonDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}
+/* Extra CSS copied from AddToCartButtonStyle*/
+.count {
+  padding-left: var(--element-spacing-sm);
+  padding-right: var(--element-spacing-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+}
+.AddToCartButton {
+  width: 100%;
+}
+
+/* Extra CSS for CategoryCard Component [In which a class is passing as props into Button component]. */
+
+.catalogueViewButton{
+  width: 100%;
+}

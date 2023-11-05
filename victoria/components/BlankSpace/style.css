@@ -1,0 +1,14 @@
+.BlankSpaceRoot {
+  display: block;
+  border: 2px dashed var(--theme-dark-secondary-text-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: var(--font-size-xxxl);
+  color: var(--theme-dark-secondary-text-color);
+}
+.BlankSpaceRounded {
+  border-radius: 8px;
+}

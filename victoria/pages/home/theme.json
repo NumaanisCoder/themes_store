@@ -1,0 +1,91 @@
+{
+  "name": "div",
+  "isContainer": true,
+  "props": {
+    "className": "vh-100"
+  },
+  "children": [
+    {
+      "name": "div",
+      "isContainer": true,
+      "props": {
+        "className": "theme-vivid"
+      },
+      "children": [
+        {
+          "name": "Header"
+        },
+        {
+          "name": "div",
+          "isContainer": true,
+          "children": [
+            {
+              "name": "Marquee"
+            },
+            {
+              "name": "Slider",
+              "props": {
+                "dark": true,
+                "callSign": "image",
+                "lessHeight": true
+              }
+            },
+            {
+              "name": "CategoryListSlider",
+              "props": {
+                "forCatalog": true,
+                "title": "Featured Catalog",
+                "dataKey": "biz_shop_catalog_id",
+                "storeSubName": "catalog"
+              }
+            },
+            {
+              "name": "ProductListSlider",
+              "props": {
+                "index": 0,
+                "fetch": "all_category",
+                "fetchProducts": true
+              }
+            },
+            {
+              "name": "ItemInFocus",
+              "props": {
+                "apiSubData": true,
+                "className": "my-5 py-5",
+                "detailsOnLeft": true,
+                "description": ""
+              }
+            },
+            {
+              "name": "RandomProductListGenerator",
+              "props": {
+                "fetch": "all_category"
+              }
+            },
+            {
+              "name": "CategoryListSlider",
+              "props": {
+                "forCatalog": false,
+                "title": "Shop By Categories",
+                "dataKey": "biz_shop_category_id",
+                "storeSubName": "category"
+              }
+            },
+            {
+              "name": "Reviews"
+            },
+            {
+              "name": "InfoBrand"
+            }
+          ]
+        },
+        {
+          "name": "Footer",
+          "props": {
+            "className": "vivid-mt-2xxl"
+          }
+        }
+      ]
+    }
+  ]
+}

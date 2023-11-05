@@ -1,0 +1,58 @@
+{
+  "name": "div",
+  "isContainer": true,
+  "props": {
+    "className": "vh-100"
+  },
+  "children": [
+    {
+      "name": "div",
+      "isContainer": true,
+      "props": {
+        "className": "theme-vivid"
+      },
+      "children": [
+        {
+          "name": "Header"
+        },
+        {
+          "name": "div",
+          "isContainer": true,
+          "props": {
+            "className": "max-width mt-5"
+          },
+          "children": [
+            {
+              "name": "Slider",
+              "props": {
+                "dark": true,
+                "callSign": "image",
+                "lessHeight": true
+              }
+            },
+            {
+              "name": "CategoryListSlider",
+              "props": {
+                "title": "Shop By Categories",
+                "dataKey": "biz_shop_catalog_id",
+                "storeSubName": "category"
+              }
+            },
+            {
+              "name": "RandomProductListGenerator",
+              "props": {
+                "fetch": "all_category"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Footer",
+          "props": {
+            "className": "vivid-mt-2xxl"
+          }
+        }
+      ]
+    }
+  ]
+}

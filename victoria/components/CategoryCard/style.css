@@ -1,0 +1,45 @@
+.categoryCardRoot {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.08);
+}
+.categoryCardImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.5s;
+}
+.categoryCardImageContainer {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  background: #efefef;
+  overflow: hidden;
+  cursor: pointer;
+  position: inherit;
+  box-shadow: 10px 10px 20px var(--theme-shadow-color);
+
+  position: relative;
+}
+.categoryCardImageContainer:hover .categoryCardImage {
+  transform: scale(1.1);
+}
+.categoryCardCatalogName {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  color: var(--theme-dark-secondary-text-color);
+}
+.categoryName {
+  font-size: var(--font-size-xl);
+    font-weight: 400;
+    color: var(--theme-dark-text-color);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
