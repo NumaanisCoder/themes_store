@@ -1,0 +1,12 @@
+.informationHeading {
+  margin-bottom: var(--element-spacing-md);
+  font-weight: 500;
+  font-size: var(--font-size-xxl);
+}
+.informationBody {
+  margin-bottom: var(--element-spacing-md);
+  font-weight: 400;
+  font-size: var(--font-size-lg);
+  text-align: justify;
+  white-space: pre-wrap;
+}
