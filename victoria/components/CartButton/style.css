@@ -6,14 +6,7 @@
   margin-left: 1rem;
   width: 6rem;
   height: 6rem;
-  background: var(--border-light-box-color-1);
-  border-radius: 50%;
   transition: all 0.3s ease-in;
-}
-
-.cartIconContainer:hover {
-  background: var(--background-black-color);
-  color: white;
 }
 
 .cartIconContainer:hover > div {
@@ -21,7 +14,7 @@
 }
 
 .cartIconContainer:hover .cartIcon {
-  color: white;
+  color: black;
 }
 
 .shakeDivContainer {
