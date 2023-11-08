@@ -99,3 +99,8 @@
 .catalogueViewButton{
   width: 100%;
 }
+@media (max-width: 480px){
+  .buttonText{
+    font-size: 1.5rem
+  }
+}
