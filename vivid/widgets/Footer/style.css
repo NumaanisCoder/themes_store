@@ -93,6 +93,7 @@
     margin-top: var(--element-spacing-lg);
   }
   .copywrite {
+    font-size: 1.5rem;
     margin-top: var(--element-spacing-lg);
   }
   .StoreDetailsContainer {
