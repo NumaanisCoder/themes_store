@@ -74,8 +74,10 @@
   text-decoration: underline;
 }
 .mobileMenuButton {
-  padding-left: var(--element-spacing-sm);
-  padding-right: var(--element-spacing-xs);
+   color: white;
+  background-color: black;
+  padding: 6px;
+  margin-left: 1px;
 }
 .mobileMenuButtonIcon {
   font-size: var(--font-size-xxl) !important;
