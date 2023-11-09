@@ -1,27 +1,27 @@
 /* Components */
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/AddToCartButton/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/BlankSpace/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Button/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/CartButton/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/CategoryCard/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/HeaderMessageBar/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/IconWithText/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/InputText/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/ItemInFocus/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Logo/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Marquee/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/MyAccountButton/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Nav/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/ProductCard/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/components/Slider/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/AddToCartButton/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/BlankSpace/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/Button/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/CartButton/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/CategoryCard/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/HeaderMessageBar/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/IconWithText/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/InputText/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/ItemInFocus/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/Logo/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/Marquee/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/MyAccountButton/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/Nav/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/ProductCard/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/components/Slider/style.css");
 
 /* Pages */
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/pages/information/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/pages/information/style.css");
 
 /* Widgets */
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/DisplayProducts/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/Footer/style.css");
-@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/InfoBrand/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/widgets/DisplayProducts/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/widgets/Footer/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@1a06ac5/vivid/widgets/InfoBrand/style.css");
 
 /* Font Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
