@@ -1,0 +1,30 @@
+{
+  "name": "div",
+  "isContainer": true,
+  "props": {
+    "className": "vh-100"
+  },
+  "children": [
+    {
+      "name": "div",
+      "isContainer": true,
+      "props": {
+        "className": "theme-vivid"
+      },
+      "children": [
+        {
+          "name": "Header"
+        },
+        {
+          "name": "Data"
+        },
+        {
+          "name": "Footer",
+          "props": {
+            "className": "vivid-mt-2xxl"
+          }
+        }
+      ]
+    }
+  ]
+}
