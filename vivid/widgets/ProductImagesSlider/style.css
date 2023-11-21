@@ -1,0 +1,85 @@
+.productImagesSliderRoot {
+  display: inline;
+}
+.productImagesSliderHeroImage {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.productImagesSliderLeftButton { 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -18px; 
+  z-index: 10;
+}
+.productImagesSliderRightButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -18px;
+  z-index: 10;
+}
+.productImagesSliderSwiperContainer {
+  position: relative;
+}
+.productImagesSliderTileImageOverlay {
+  background: rgba(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0;
+  transition: 0.5s;
+}
+.productImagesSliderTileImage {
+  box-shadow: 10px 10px 20px var(--theme-shadow-color);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.productImagesSliderTileImageContainer {
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid black;
+  height: 80px;
+  border-radius: 6px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+}
+.productImagesSliderTileSelected {
+ border-color: #007185;
+}
+
+.productImagesSliderVideoTileImageOverlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000044;
+}
+.productImagesSliderVideoTileImageOverlay img {
+  width: 24px;
+  height: 20px;
+}
+
+@media (min-width: 767px) {
+  .productImagesSliderTileImageContainer:hover .productImagesSliderTileImageOverlay {
+    opacity: 0.4;
+  }
+  .productImagesSliderVideoTileImageOverlay img {
+    width: 40px;
+    height: 36px;
+  }
+}
+

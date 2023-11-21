@@ -1,0 +1,7 @@
+.paginationRoot {
+  display: block;
+}
+.paginationText {
+  font-size: var(--font-size-lg);
+}
+

@@ -1,0 +1,29 @@
+.productListSliderRoot {
+  display: block;
+}
+.productListSliderBoxSizing {
+  box-sizing: border-box;
+}
+
+.productListSliderArrowButtonMainContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.productListSliderButtonContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productListSliderTitle {
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .productListSliderTitle {
+    font-size: var(--font-size-lg);
+  }
+}
+

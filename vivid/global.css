@@ -20,10 +20,15 @@
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/pages/information/style.css");
 
 /* Widgets */
+
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/CategoryListSlider/style.css");
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/DisplayProducts/style.css");
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/Footer/style.css");
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/InfoBrand/style.css");
 @import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/LoginScreen/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/Pagination/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/ProductImagesSlider/style.css");
+@import url("https://cdn.jsdelivr.net/gh/AndroiableDroid/themes_store@main/vivid/widgets/ProductListSlider/style.css");
 
 /* Font Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");

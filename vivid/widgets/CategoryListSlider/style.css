@@ -1,0 +1,29 @@
+.categoryListSliderRoot {
+  display: block;
+}
+.categoryListSliderBoxSizing {
+  box-sizing: border-box;
+}
+
+.categoryListSliderArrowButtonMainContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.categoryListSliderButtonContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categoryListSliderTitle {
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .categoryListSliderTitle {
+    font-size: var(--font-size-lg);
+  }
+}
+
