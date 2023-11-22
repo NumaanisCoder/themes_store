@@ -17,7 +17,7 @@
   height: 100%;
   box-sizing: border-box;
   border-radius: 3rem;
-  width: 92%;
+  width: 86%;
   outline: none;
   font-size: var(--font-size-lg);
   padding: var(--element-spacing-sm);
@@ -37,6 +37,7 @@
   cursor: pointer;
   font-size: var(--font-size-xl);
   width: 4.5rem;
+  height: 4.5rem;
   border-radius: 50%;
   background-color: black;
   transition: all 0.3s ease-in;

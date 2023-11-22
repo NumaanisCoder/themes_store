@@ -93,7 +93,7 @@
     margin-top: var(--element-spacing-lg);
   }
   .copywrite {
-    margin-top: var(--element-spacing-lg);
+    margin-top: var(--element-spacing-md);
   }
   .StoreDetailsContainer {
     text-align: center;

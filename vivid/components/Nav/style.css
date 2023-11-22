@@ -74,13 +74,11 @@
   text-decoration: underline;
 }
 .mobileMenuButton {
-   color: white;
-  background-color: black;
-  padding: 6px;
-  margin-left: 1px;
+  color: black;
+  padding: 0px 4px 0px 4px;
 }
 .mobileMenuButtonIcon {
-  font-size: var(--font-size-xxl) !important;
+  font-size: var(--font-size-xxxl) !important;
 }
 .mobileNav {
   position: fixed;

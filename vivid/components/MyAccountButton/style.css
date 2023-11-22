@@ -52,3 +52,9 @@
     font-size: var(--font-size-xxl) !important;
   }
 }
+@media (max-width: 500px){
+  .accIconContainer{
+    width: 5rem;
+    height: 5rem;
+  }
+}
