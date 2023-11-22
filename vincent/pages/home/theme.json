@@ -20,15 +20,15 @@
           "isContainer": true,
           "children": [
             {
-              "name": "Marquee"
-            },
-            {
               "name": "Slider",
               "props": {
                 "dark": true,
                 "callSign": "image",
                 "lessHeight": true
               }
+            },
+            {
+              "name": "Marquee"
             },
             {
               "name": "CategoryListSlider",
